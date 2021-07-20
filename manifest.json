@@ -1,0 +1,13 @@
+{
+  "manifest_version": 1,
+ 
+  "name": "Jira Target Blank",
+  "version": "0.1.0",
+  "description": "Your Jira links will open in a new tab",
+ 
+  "content_scripts": [{
+    "js": ["content.js"],
+    "matches": ["https://*.atlassian.net/"]
+  }]
+ 
+}
