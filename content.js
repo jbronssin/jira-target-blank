@@ -1,13 +1,7 @@
-function search_links() {
-  let links = document.getElementsByTagName('a');
-  console.log(links);
-  for (var i=0; i < links.length; i++) {
-    links[i].target = '_blank';
+document.getElementById('jira').addEventListener('click', (event) => {
+  if(event.target.href) {
+    event.preventDefault();
+    event.stopPropagation();
+    window.open(event.target.href, '_blank')
   }
-}
-
-search_links();
-
-document.getElementById('jira').addEventListener("click", function() {
-  search_links();
 })
