@@ -4,6 +4,7 @@ For Chrome Only, small extension to get you the beloved _blank target on every a
 
 Installation
 ------------
+0. git clone
 1. Open `chrome://extensions/`.
 2. Enable `Developer mode`.
 3. Click `Load unpacked extension...`.
