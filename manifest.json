@@ -2,7 +2,7 @@
   "manifest_version": 2,
  
   "name": "Jira Target Blank",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Your Jira links will open in a new tab !",
   "icons": {
     "128": "icon128.png"
